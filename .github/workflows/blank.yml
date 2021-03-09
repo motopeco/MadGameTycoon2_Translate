@@ -25,7 +25,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: bitoiu/node-js-action-template@v1.0
 
-      - name: fetch-pull
+      - uses: actions/checkout@v2
+
+      - name: ls
         run: ls
 
       # Runs a single command using the runners shell
