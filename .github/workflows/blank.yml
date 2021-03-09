@@ -25,6 +25,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: bitoiu/node-js-action-template@v1.0
 
+      - name: fetch-pull
+        run: |
+          git fetch
+          git pull
+
       # Runs a single command using the runners shell
       - name: Yarn
         run: sudo npm i -g yarn
