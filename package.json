@@ -1,0 +1,13 @@
+{
+  "name": "MadGameTycoon2_Translate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:motopeco/MadGameTycoon2_Translate.git",
+  "author": "motopeco <motopeco.cb@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^4.15.3",
+    "iconv-lite": "^0.6.2",
+    "lodash": "^4.17.21"
+  }
+}
